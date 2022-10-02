@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: POD
+metadata:
+   - name: 3riNginx
+   - namespace: 3ri
+spec:
+   - containers:
+      - name: nginx
+      - image: nginx:latest
+   
